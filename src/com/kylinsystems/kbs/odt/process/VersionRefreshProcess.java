@@ -33,6 +33,7 @@ import org.compiere.util.AdempiereSystemError;
 
 import com.kylinsystems.kbs.odt.model.MKSODTVersion;
 
+@org.adempiere.base.annotation.Process
 public class VersionRefreshProcess extends SvrProcess
 {
 	/** Entity Type			*/

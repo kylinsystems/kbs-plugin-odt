@@ -32,6 +32,7 @@ import org.compiere.util.AdempiereSystemError;
 
 import com.kylinsystems.kbs.odt.model.MKSODTPackage;
 
+@org.adempiere.base.annotation.Process
 public class ExportPackageProcess extends SvrProcess
 {
 	private int p_ODTPackage_ID = 0;

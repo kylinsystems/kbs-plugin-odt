@@ -90,7 +90,7 @@ public class Activator extends AdempiereActivator {
 			try {
 				input = configURL.openStream();
 
-				logger.log(Level.INFO, "Loading iDempiere OPTPackage from bundle:" + getName());
+				logger.log(Level.INFO, "Loading OPTPackage from bundle:" + getName());
 				DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 				dbf.setNamespaceAware(true);
 				dbf.setIgnoringElementContentWhitespace(true);
@@ -271,7 +271,7 @@ public class Activator extends AdempiereActivator {
 					MKSODTPackage.importFromXmlNode(ctx, eODTPackage);
 				}
 
-				logger.log(Level.INFO, "Finished install KSYS OPTPackage from bundle:" + getName());
+				logger.log(Level.INFO, "Finished install OPTPackage from bundle:" + getName());
 			} catch (Exception ex) {
 				logger.log(Level.SEVERE, ex.getMessage());
 			} finally {

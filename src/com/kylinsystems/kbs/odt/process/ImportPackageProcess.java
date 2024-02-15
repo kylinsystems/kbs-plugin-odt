@@ -45,6 +45,7 @@ import org.xml.sax.InputSource;
 import com.kylinsystems.kbs.odt.model.MKSODTPackage;
 import com.kylinsystems.kbs.odt.model.Utils;
 
+@org.adempiere.base.annotation.Process
 public class ImportPackageProcess extends SvrProcess {
 
 	private String fileName = null;

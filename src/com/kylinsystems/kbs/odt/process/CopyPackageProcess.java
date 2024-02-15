@@ -37,6 +37,7 @@ import com.kylinsystems.kbs.odt.model.MKSODTObjectDataLine;
 import com.kylinsystems.kbs.odt.model.MKSODTPackage;
 import com.kylinsystems.kbs.odt.model.MKSODTVersion;
 
+@org.adempiere.base.annotation.Process
 public class CopyPackageProcess extends SvrProcess
 {
 	private int p_KS_ODTPackageTo_ID = 0;

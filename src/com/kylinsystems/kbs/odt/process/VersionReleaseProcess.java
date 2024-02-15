@@ -32,6 +32,7 @@ import org.compiere.util.AdempiereSystemError;
 
 import com.kylinsystems.kbs.odt.model.MKSODTVersion;
 
+@org.adempiere.base.annotation.Process
 public class VersionReleaseProcess extends SvrProcess
 {
 	private int p_ODTVersion_ID = 0;

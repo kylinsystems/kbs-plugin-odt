@@ -32,7 +32,8 @@ import org.compiere.process.SvrProcess;
 import org.compiere.util.AdempiereSystemError;
 
 import com.kylinsystems.kbs.odt.model.MKSODTVersion;
-             
+
+@org.adempiere.base.annotation.Process
 public class LinkEntityTypeProcess extends SvrProcess
 {
 	/** Entity Type			*/

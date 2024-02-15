@@ -51,7 +51,7 @@ public class ODTProcessFactoryImpl extends AnnotationBasedProcessFactory {
 
 	@Override
 	protected String[] getPackages() {
-		return new String[] {"com.kylinsystems.kbs.odt.process"};
+		return new String[] {com.kylinsystems.kbs.odt.process.PackageInstallProcess.class.getPackageName()};
 	}
 
 }
